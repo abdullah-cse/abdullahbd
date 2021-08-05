@@ -13,15 +13,15 @@ enableEmoji = true
 [params]
 author = "MD. Abdullah"
 description = "Abdullah's personal website"
-keywords = "blog,developer,personal"
+keywords = "blog,developer,personal, C#, Desktop App, .NET"
 info = ["Desktop App developer on .NET, C# as language", "Blogger"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
-footerContent = "Enter a text here."
-dateFormat = "January 2, 2006"
+footerContent = "Success isn't an Accident."
+dateFormat = "2 January, 2006"
 hideFooter = false
 hideCredits = false
-hideCopyright = false
+hideCopyright = true
 since = 2020
 # Git Commit in Footer, uncomment the line below to enable it
 commit = "https://github.com/luizdepra/hugo-coder/tree/"
@@ -32,7 +32,7 @@ rtl = false
 # "auto" (use preference set by browser)
 # "dark" (dark background, light foreground)
 # "light" (light background, dark foreground) (default)
-colorScheme = "auto"
+colorScheme = "dark"
 # Hide the toggle button, along with the associated vertical divider
 hideColorSchemeToggle = false
 # Series see also post count
@@ -187,6 +187,7 @@ url = "about/"
 
 #আরবী ভাষা শুরু
 [languages.ar]
+rtl = true  #ডানপাশ থেকে আরবী দেখানোর জন্য।
 languageName = "عربى"
 title = "شبكة عبد الله"
 
