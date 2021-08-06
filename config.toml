@@ -1,5 +1,5 @@
-baseURL = "https://www.abdullah.info.bd"
-title = "Abdullah's Web"
+baseURL = "/"
+title = "Abdullah's web"
 languageCode = "en"
 defaultContentLanguage = "en"
 paginate = 20
@@ -17,12 +17,12 @@ keywords = "blog,developer,personal, C#, Desktop App, .NET"
 info = ["Desktop App developer on .NET, C# as language", "Blogger"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
-footerContent = "Success isn't an Accident."
+footerContent = "✍️ with ❤️ by Md. Abdullah"
 dateFormat = "2 January, 2006"
 hideFooter = false
-hideCredits = false
+hideCredits = true
 hideCopyright = true
-since = 2020
+since = 2021
 # Git Commit in Footer, uncomment the line below to enable it
 commit = "https://github.com/luizdepra/hugo-coder/tree/"
 # Right To Left, shift content direction for languagues such as Arabic
@@ -98,6 +98,8 @@ series = "series"
 tag = "tags"
 author = "authors"
 
+
+
 [[params.social]]
 name = "Github"
 icon = "fa fa-github"
@@ -107,24 +109,31 @@ url = "https://github.com/abdullah-cse"
 [[params.social]]
 name = "Twitter"
 icon = "fa fa-twitter"
-weight = 3
+weight = 2
 url = "https://twitter.com/johndoe/"
 
 [[params.social]]
-name = "Medium"
-icon = "fa fa-medium"
+name = "Youtube"
+icon = "fa fa-youtube-play"
+weight = 3
+url = "https://www.youtube.com/channel/UCh_ciK6TZyD-3dgx6QThabw"
+
+[[params.social]]
+name = "Telegram"
+icon = "fa fa-telegram"
+weight = 4
+url = "https://t.me/abdullahcse"
+
+[[params.social]]
+name = "Protonmail"
+icon = "fa fa-envelope"
 weight = 5
-url = "https://medium.com/@johndoe"
+url = "mailto:abdullah_bd@protonmail.com"
 
 
 
 [languages.en]
 languageName = "English"
-
-[[languages.en.menu.main]]
-name = "Home"
-weight = 1
-url = "/"
 
 [[languages.en.menu.main]]
 name = "Blog"
@@ -146,9 +155,11 @@ name = "About"
 weight = 6
 url = "about/"
 
+
+#বাংলা ভাষার অংশ শুরু
 [languages.bn]
 languageName = "বাংলা"
-title = "আবদুল্লাহ'র ওয়েব"
+title = "আবদুল্লাহ'র নোট"
 
 [languages.bn.params]
 author = "মো. আবদুল্লাহ"
@@ -157,10 +168,6 @@ description = "Sítio pessoal de João Ninguém"
 keywords = "blog,desenvolvedor,pessoal"
 footerContent = "Coloque algum texto aqui."
 
-[[languages.bn.menu.main]]
-name = "নীড়পাতা"
-weight = 1
-url = "/"
 
 [[languages.bn.menu.main]]
 name = "ব্লগ"
@@ -181,7 +188,7 @@ url = "contact/"
 name = "আমার সমন্ধে"
 weight = 6
 url = "about/"
-
+#বাংলা ভাষার অংশ শেষ
 
 
 
