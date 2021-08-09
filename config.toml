@@ -151,13 +151,13 @@ weight = 3
 url = "projects/"
 
 [[languages.en.menu.main]]
-name = "Contact"
-weight = 5
-url = "contact/"
+name = "Uses"
+weight = 4
+url = "uses/"
 
 [[languages.en.menu.main]]
 name = "About"
-weight = 6
+weight = 5
 url = "about/"
 
 
@@ -173,9 +173,13 @@ description = "Sítio pessoal de João Ninguém"
 keywords = "blog,desenvolvedor,pessoal"
 footerContent = "Coloque algum texto aqui."
 
+[[languages.bn.menu.main]]
+name = "এখন"
+weight = 1
+url = "now/"
 
 [[languages.bn.menu.main]]
-name = "ব্লগ"
+name = "লেখালেখি"
 weight = 2
 url = "posts/"
 
@@ -185,13 +189,13 @@ weight = 3
 url = "projects/"
 
 [[languages.bn.menu.main]]
-name = "যোগাযোগ"
-weight = 5
-url = "contact/"
+name = "ব্যবহার"
+weight = 4
+url = "uses/"
 
 [[languages.bn.menu.main]]
 name = "আমার সমন্ধে"
-weight = 6
+weight = 5
 url = "about/"
 #বাংলা ভাষার অংশ শেষ
 
