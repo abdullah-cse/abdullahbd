@@ -36,6 +36,7 @@
           <img src='{{ .Params.featuredImage }}' alt="Featured image"/>
         {{ end }}
         {{ .Content }}
+        {{ partial "share-button.html" . }}
       </div>
 
 
