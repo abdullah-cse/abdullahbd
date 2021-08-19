@@ -38,7 +38,7 @@ hideColorSchemeToggle = false
 # Series see also post count
 maxSeeAlsoItems = 5
 # Enable Twemoji
-enableTwemoji = false
+enableTwemoji = true
 # Custom CSS
 customCSS = []
 # Custom SCSS
