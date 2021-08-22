@@ -2,7 +2,7 @@ baseURL = "https://www.abdullah.com.bd"
 title = "Abdullah's web"
 languageCode = "en"
 defaultContentLanguage = "en"
-paginate = 20
+paginate = 15
 pygmentsStyle = "bw"
 pygmentsCodeFences = true
 pygmentsCodeFencesGuessSyntax = true
@@ -11,17 +11,17 @@ enableEmoji = true
 # disqusShortname = "yourdiscussshortname"
 
 [params]
-author = "MD. Abdullah"
+author = "MD, Abdullah"
 description = "Abdullah's personal website"
-keywords = "blog,developer,personal, C#, Desktop App, .NET"
-info = ["Desktop App developer on .NET, C# as language", "Blogger"]
+keywords = "blog,developer,personal, C#, Desktop App, .NET, HUGO"
+info = ["I write code & care about my Privacy🛡️"]
 avatarURL = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
 footerContent = "✍️ with ❤️ by Md. Abdullah"
 dateFormat = "2 January, 2006"
-hideFooter = false
-hideCredits = true
-hideCopyright = true
+hideFooter = true
+hideCredits = false
+hideCopyright = false
 since = 2021
 # Git Commit in Footer, uncomment the line below to enable it
 commit = "https://github.com/luizdepra/hugo-coder/tree/"
@@ -128,7 +128,7 @@ url = "https://t.me/abdullahcse"
 name = "Protonmail"
 icon = "fa fa-envelope"
 weight = 5
-url = "mailto:abdullah_bd@protonmail.com"
+url = "mailto:contact@abdullah.com.bd"
 
 
 
@@ -170,8 +170,8 @@ title = "আবদুল্লাহ'র নোট"
 author = "মো. আবদুল্লাহ"
 info = "C# ডেভেলপার"
 description = "Sítio pessoal de João Ninguém"
-keywords = "blog,desenvolvedor,pessoal"
-footerContent = "Coloque algum texto aqui."
+keywords = "blog, C#, pessoal, Tutorial, developer "
+footerContent = "কালকের দিনটিই ছিলো সহজ দিন"
 
 [[languages.bn.menu.main]]
 name = "এখন"
@@ -209,33 +209,30 @@ title = "شبكة عبد الله"
 
 [languages.ar.params]
 author = "মো. আবদুল্লাহ"
-info = "Full Stack DevOps e Mágico"
-description = "Sítio pessoal de João Ninguém"
+info = "أكتب رمزًا وأهتم بخصوصيتي"
+description = "আলহামদুলিল্লাহ"
 keywords = "blog,desenvolvedor,pessoal"
-footerContent = "Coloque algum texto aqui."
+footerContent = "Nothing to hide"
+
+
 
 [[languages.ar.menu.main]]
-name = "الصفحة الرئيسية"
-weight = 1
-url = "/"
-
-[[languages.ar.menu.main]]
-name = "ব্লগ"
+name = "مدونة"
 weight = 2
 url = "posts/"
 
 [[languages.ar.menu.main]]
-name = "প্রকল্প"
+name = "المشاريع"
 weight = 3
 url = "projects/"
 
 [[languages.ar.menu.main]]
-name = "যোগাযোগ"
+name = "تواصل"
 weight = 5
 url = "contact/"
 
 [[languages.ar.menu.main]]
-name = "আমার পরিচয়"
+name = "عني"
 weight = 6
 url = "about/"
 #আরবী ভাষা শেষ
