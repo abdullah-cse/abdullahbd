@@ -73,13 +73,13 @@ ADB শেল চালু করুন
 - com.facebook.appmanager
 
 এবার সবগুলোকে নিচের মতো কমান্ড দিয়ে কেটে দিন।
-> pm uninstall -k - -user 0 com.facebook.services
+> pm uninstall -k --user 0 com.facebook.services
 
->pm uninstall -k - -user 0 com.facebook.system
+>pm uninstall -k --user 0 com.facebook.system
 
->pm uninstall -k - -user 0 com.facebook.system
+>pm uninstall -k --user 0 com.facebook.system
 
->pm uninstall -k - -user 0 com.facebook.appmanager
+>pm uninstall -k --user 0 com.facebook.appmanager
 
 {{< notice example >}}
 আমার ফোনে মাত্র দুটি প্যাকেজ দেখা যাচ্ছে। কারন, এই টিউটোরিয়াল তৈরির আগেই আমি আমার ফোনে যাচাই করে দেখেছিলাম। তাই, এখানে সবকয়টা প্যাকেজ দেখা যাচ্ছে না।
