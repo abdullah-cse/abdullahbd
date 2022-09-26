@@ -1,32 +1,63 @@
 [category]
 other = "فئة"
 
+[categories]
+other = "التصنيفات"
+
 [tag]
-other = "وَسم"
+other = "بطاقة"
+
+[tags]
+other = "بطاقة"
 
 [series]
 other = "سلسلة"
 
+[author]
+other = "الكاتب"
+
+[authors]
+other = "الكتاب"
+
+[posts]
+other = "المشاركات"
+
 [reading_time]
-other = "تستغرق {{ .Count }} د"
+one = "قراءة دقيقة واحدة"
+other = "{{ .Count }}-قراءة دقيقة"
 
 [page_not_found]
 other = "الصفحة غير موجودة"
 
 [page_does_not_exist]
-other = "هذه الصفحة غير موجودة"
+other = "عذرا، هذه الصفحة غير موجودة."
 
 [head_back]
-other = "بإمكانك العودة إلى <a href=\"{{ . }}\">homepage</a>."
+other = "يمكنك العودة إلى <a href=\"{{ . }}\">الصفحة الرئيسية</a>."
 
 [powered_by]
-other = "بواسطة"
-
-[author]
-other = "الكاتب"
+other = "مشغل بواسطة"
 
 [see_also]
-other = "انظر أيضاً"
+other = "انظر أيضا في"
 
-[posts]
-other = "المنشورات"
+[note]
+other = "مذكرة"
+
+[tip]
+other = "إرشاد"
+
+[example]
+other = "مثال"
+
+[question]
+other = "سؤال"
+
+[info]
+other = "معلومات"
+
+[warning]
+other = "تحذير"
+
+[error]
+other = "خطأ"
